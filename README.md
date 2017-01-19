@@ -2,7 +2,7 @@
 
 Inspired by Hendrik Blockeel, Luc De Raedt : "Top-down induction of first-order logical decision trees"
 
----
+-
 
 The current version is just a proof of concept, it :
 - is not designed for speed
@@ -16,6 +16,5 @@ The current version is just a proof of concept, it :
   not properties on more than one set of parts 
   (not the patient of a hospital AND the services of a hospital)
   
-  ---
-  
-  A test on Michalski's set of trains can be found in the test folder.
+
+A test on Michalski's set of trains can be found in the test folder.
