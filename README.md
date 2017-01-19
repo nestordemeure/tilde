@@ -1,6 +1,11 @@
 # tilde
+## Library that implements TILDE in F#.
 
-the current version is just a proof of concept, it :
+Inspired by Hendrik Blockeel, Luc De Raedt : "Top-down induction of first-order logical decision trees"
+
+---
+
+The current version is just a proof of concept, it :
 - is not designed for speed
 - is not as clean as it could be (the Exist/Forall distinction could be more explicit in the code)
 - does not implement a great decision tree (greedy C4.5 heuristics, no pruning/etc)
@@ -11,3 +16,7 @@ the current version is just a proof of concept, it :
   (not the number of wagons)
   not properties on more than one set of parts 
   (not the patient of a hospital AND the services of a hospital)
+  
+  ---
+  
+  A test on Michalski's set of trains can be found in the test folder.
