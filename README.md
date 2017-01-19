@@ -18,13 +18,14 @@ The current version is just a proof of concept, it :
 
 
 When run on Michalski's set of trains (the test can be found in the test folder), it returns :
-
-  ∃t0, charge_is_a_Triangle(t0) ?
-  ├─No── West
-  └─Yes─∃t1, has_no_charge(t1) ?
-        ├─No──∀t∈t0, roof_is_Peaked(t) ?
-        │     ├─No──∃t2, has_3_charges(t2) ?
-        │     │     ├─No── East
-        │     │     └─Yes─ West
-        │     └─Yes─ East
-        └─Yes─ West
+```
+∃t0, charge_is_a_Triangle(t0) ?
+├─No── West
+└─Yes─∃t1, has_no_charge(t1) ?
+      ├─No──∀t∈t0, roof_is_Peaked(t) ?
+      │     ├─No──∃t2, has_3_charges(t2) ?
+      │     │     ├─No── East
+      │     │     └─Yes─ West
+      │     └─Yes─ East
+      └─Yes─ West
+```
