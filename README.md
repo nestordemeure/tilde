@@ -1,5 +1,5 @@
 # tilde
-## Library that implements TILDE in F#.
+# Library that implements TILDE in F#.
 
 Inspired by Hendrik Blockeel, Luc De Raedt : "Top-down induction of first-order logical decision trees"
 
