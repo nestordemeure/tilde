@@ -15,6 +15,16 @@ The current version is just a proof of concept, it :
   (not the number of wagons)
   not properties on more than one set of parts 
   (not the patient of a hospital AND the services of a hospital)
-  
 
-A test on Michalski's set of trains can be found in the test folder.
+
+When run on Michalski's set of trains (the test can be found in the test folder), it returns :
+
+  ∃t0, charge_is_a_Triangle(t0) ?
+  ├─No── West
+  └─Yes─∃t1, has_no_charge(t1) ?
+        ├─No──∀t∈t0, roof_is_Peaked(t) ?
+        │     ├─No──∃t2, has_3_charges(t2) ?
+        │     │     ├─No── East
+        │     │     └─Yes─ West
+        │     └─Yes─ East
+        └─Yes─ West
