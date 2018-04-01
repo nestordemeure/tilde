@@ -1,8 +1,6 @@
-# tilde : a library that implements TILDE in F#.
+# Tilde : a library that implements TILDE in F#.
 
 Inspired by Hendrik Blockeel, Luc De Raedt : "*Top-down induction of first-order logical decision trees*"
-
--
 
 The current version is just a proof of concept, it :
 - is not designed for speed
